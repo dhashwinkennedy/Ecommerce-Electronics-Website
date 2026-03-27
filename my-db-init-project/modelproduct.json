@@ -1,0 +1,88 @@
+[{
+  "_id": "EEPIDL217882361",
+  "name": "ASUS TUF A16 FA607NUG-RL189WS AMD Ryzen 7 Gaming Laptop (16GB, 1TB SSD, Windows 11 Home, 6GB Graphics, 16 inch 144 Hz WUXGA Display, NVIDIA GeForce RTX 4050, MS Office Home 2024, Mecha Gray, 4.48 KG)",
+  "price": 102990,
+  "rating": 3.8,
+  "org_price": 114990,
+  "discount": 10,
+  "total_rating": 70,
+  "category": "Laptop",
+  "brand": "ASUS"
+},
+{
+  "_id": "EEPIDL262423935",
+  "name": "Lenovo LOQ 15IAX9 Intel Core i5 12th Gen Gaming Laptop (12GB, 512GB SSD, Windows 11 Home, 4GB Graphics, 15.6 inch 144 Hz IPS Display, NVIDIA GeForce RTX 2050, MS Office 2024, Luna Grey, 2.38 KG)",
+  "price": 63990,
+  "rating": 4,
+  "org_price": 92290,
+  "discount": 31,
+  "total_rating": 49,
+  "category": "Laptop",
+  "brand": "Lenovo"
+},
+{
+  "_id": "EEPIDL674835435",
+  "name": "HP Victus 15-fb3124AX AMD Ryzen 7 Gaming Laptop (16GB, 512GB SSD, Windows 11 Home, 6GB Graphics, 15.6 inch 144 Hz Full HD Display, NVIDIA GeForce RTX 4050, MS Office Home 2024, Performance Blue, 2.29 KG)",
+  "price": 76490,
+  "rating": 4.6,
+  "org_price": 94933,
+  "discount": 19,
+  "total_rating": 142,
+  "category": "Laptop",
+  "brand": "HP"
+},
+{
+  "_id": "EEPIDM251527934",
+  "name": "vivo Y400 Pro 5G (8GB RAM, 256GB, Freestyle White)",
+  "price": 27999,
+  "rating": 4,
+  "org_price": 31999,
+  "discount": 12,
+  "total_rating": 85,
+  "category": "Mobile",
+  "brand": "Vivo"
+},
+{
+  "_id": "EEPIDM520936763",
+  "name": "OnePlus Nord CE4 5G (8GB RAM, 128GB, Nexus Blue)",
+  "price": 19999,
+  "rating": 4.5,
+  "org_price": 24999,
+  "discount": 14,
+  "total_rating": 342,
+  "category": "Mobile",
+  "brand": "OnePlus"
+},
+{
+  "_id": "EEPIDM396649221",
+  "name": "Apple iPhone 16 (128GB, Black)",
+  "price": 64590,
+  "rating": 4.2,
+  "org_price": 69900,
+  "discount": 8,
+  "total_rating": 214,
+  "category": "Mobile",
+  "brand": "Apple"
+},
+{
+  "_id": "EEPIDM265466775",
+  "name": "vivo Y31 5G (6GB RAM, 128GB, Diamond Green)",
+  "price": 16499,
+  "rating": 4.1,
+  "org_price": 21499,
+  "discount": 25,
+  "total_rating": 218,
+  "category": "Mobile",
+  "brand": "vivo"
+},
+{
+  "_id": "EEPIDL745860524",
+  "name": "Apple MacBook Air (13.6 inch, M4, 16GB, 256GB, macOS, Midnight)",
+  "price": 93290,
+  "rating": 2.3,
+  "org_price": 99900,
+  "discount": 7,
+  "total_rating": 2,
+  "category": "Laptop",
+  "brand": "Apple"
+}]

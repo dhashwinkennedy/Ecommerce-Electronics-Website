@@ -1,0 +1,723 @@
+[{
+  "_id": "EEPIDL217882361",
+  "name": "ASUS TUF A16 FA607NUG-RL189WS AMD Ryzen 7 Gaming Laptop (16GB, 1TB SSD, Windows 11 Home, 6GB Graphics, 16 inch 144 Hz WUXGA Display, NVIDIA GeForce RTX 4050, MS Office Home 2024, Mecha Gray, 4.48 KG)",
+  "other_imgs": [
+    "/images/product_images/EEPIDL217882361/img.jpg",
+    "/images/product_images/EEPIDL217882361/img_2.jpg",
+    "/images/product_images/EEPIDL217882361/img_3.jpg",
+    "/images/product_images/EEPIDL217882361/img_4.jpg",
+    "/images/product_images/EEPIDL217882361/img_5.jpg",
+    "/images/product_images/EEPIDL217882361/img_6.jpg"
+  ],
+  "price": 102990,
+  "rating": 3.8,
+  "org_price": 114990,
+  "discount": 10,
+  "total_rating": 70,
+  "category": "Laptop",
+  "brand": "ASUS",
+  "charger": 56,
+  "model_series": "TUF A16 FA607NUG-RL189WS",
+  "model_number": "90NR0MU3-M00BM0",
+  "purpose": "Gaming",
+  "processor": {
+    "brand": "AMD",
+    "model": "Ryzen 7",
+    "varient": "7445HS",
+    "cores": "6-cores",
+    "cache": "22 MB",
+    "speed": "3.2 GHz",
+    "max_speed": "4.7 GHz"
+  },
+  "GPU": {
+    "brand": "NVIDIA",
+    "model": "GeForce RTX 4050",
+    "type": "Dedicated",
+    "memory": "6GB"
+  },
+  "ram": {
+    "technology": "DDR5",
+    "memory": "16GB"
+  },
+  "storage": {
+    "technology": "M.2 PCIe NVMe SSD",
+    "storage": "1TB"
+  },
+  "display": {
+    "technology": "WUXGA",
+    "size": "16 Inches/40.64 cm",
+    "resolution": "1920 x 1200 pixels",
+    "refresh_rate": "144Hz",
+    "ratio": "16:10",
+    "brightness": "300Nits",
+    "touch": "No",
+    "additional": "IPS Level Anti Glare Panel, 45% NTSC"
+  },
+  "OS": {
+    "brand": "Microsoft",
+    "type": "Windows",
+    "version": "Windows 11 Home"
+  },
+  "slots": {
+    "audio": "3.5mm - Headphone/Microphone Combo Port",
+    "USB_ports": "4 x USB 3.2 (Type-C)",
+    "USB_types": "USB 3.2 (Type-C)",
+    "HDMI": "1 x HDMI 1.4b"
+  },
+  "network": {
+    "bluetooth": "Bluetooth 5.3",
+    "wifi": "Wi-Fi 6"
+  },
+  "power": {
+    "technology": "Li-Ion Polymer",
+    "fast_charging": "Yes",
+    "cells": "4",
+    "time": "Recharge from 0 - 50% in 30 minutes",
+    "power": "48 Watts"
+  },
+  "additional_features": {
+    "Keyboard Specification": {
+      "Type of Keyboard": "Single Zone RGB Backlit Keyboard"
+    }
+  },
+  "addon": "backpack",
+  "benefits": "xbox Game Pass(3months)"
+},
+{
+  "_id": "EEPIDL262423935",
+  "name": "Lenovo LOQ 15IAX9 Intel Core i5 12th Gen Gaming Laptop (12GB, 512GB SSD, Windows 11 Home, 4GB Graphics, 15.6 inch 144 Hz IPS Display, NVIDIA GeForce RTX 2050, MS Office 2024, Luna Grey, 2.38 KG)",
+  "other_imgs": [
+    "/images/product_images/EEPIDL262423935/img.jpg",
+    "/images/product_images/EEPIDL262423935/img_2.jpg",
+    "/images/product_images/EEPIDL262423935/img_3.jpg",
+    "/images/product_images/EEPIDL262423935/img_4.jpg",
+    "/images/product_images/EEPIDL262423935/img_5.jpg",
+    "/images/product_images/EEPIDL262423935/img_6.jpg",
+    "/images/product_images/EEPIDL262423935/img_7.jpg"
+  ],
+  "price": 63990,
+  "rating": "4",
+  "org_price": 92290,
+  "discount": 31,
+  "total_rating": "49",
+  "category": "Laptop",
+  "brand": "Lenovo",
+  "charger": 135,
+  "model_series": "LOQ 15IAX9",
+  "model_number": "83GS008SIN",
+  "purpose": "Gaming",
+  "processor": {
+    "brand": "Intel",
+    "model": "Core i5",
+    "varient": "12450HX",
+    "cores": "8-cores",
+    "cache": "12 MB",
+    "speed": "3.1 GHz",
+    "max_speed": "4.4 GHz"
+  },
+  "GPU": {
+    "brand": "NVIDIA",
+    "model": "GeForce RTX 2050",
+    "type": "Dedicated",
+    "memory": "4GB"
+  },
+  "ram": {
+    "technology": "DDR5",
+    "memory": "12GB"
+  },
+  "storage": {
+    "technology": "M.2 PCIe NVMe SSD",
+    "storage": "512GB"
+  },
+  "display": {
+    "technology": "IPS",
+    "size": "15.6 Inches/39.62 cm",
+    "resolution": "1920 x 1080 pixels",
+    "refresh_rate": "144Hz",
+    "ratio": "16:9",
+    "brightness": "300Nits",
+    "touch": "No",
+    "additional": "FHD Display, 100% sRGB, Anti-glare, G-SYNC"
+  },
+  "OS": {
+    "brand": "Microsoft",
+    "type": "Windows",
+    "version": "Windows 11 Home"
+  },
+  "slots": {
+    "audio": "3.5mm - Headphone/Microphone Combo Port",
+    "USB_ports": "4",
+    "USB_types": "1 x USB-C 3.2 Gen 2, 3 x USB-A 3.2 Gen 1",
+    "HDMI": "1 x HDMI 2.1"
+  },
+  "network": {
+    "bluetooth": "Bluetooth 5.2",
+    "wifi": "Wi-Fi 6"
+  },
+  "power": {
+    "technology": "Li-Polymer",
+    "fast_charging": "Yes",
+    "cells": "4",
+    "time": "Super Rapid Charge Pro (80% in 30 minutes)",
+    "power": "60 Watts"
+  },
+  "additional_features": {
+    "Keyboard Specification": {
+      "Type of Keyboard": "White Backlit, English"
+    }
+  },
+  "addon": "backpack",
+  "benefits": "Xbox Game Pass (3 months)"
+},
+{
+  "_id": "EEPIDL674835435",
+  "name": "HP Victus 15-fb3124AX AMD Ryzen 7 Gaming Laptop (16GB, 512GB SSD, Windows 11 Home, 6GB Graphics, 15.6 inch 144 Hz Full HD Display, NVIDIA GeForce RTX 4050, MS Office Home 2024, Performance Blue, 2.29 KG)",
+  "other_imgs": [
+    "/images/product_images/EEPIDL674835435/img.jpg",
+    "/images/product_images/EEPIDL674835435/img_2.jpg",
+    "/images/product_images/EEPIDL674835435/img_3.jpg",
+    "/images/product_images/EEPIDL674835435/img_4.jpg",
+    "/images/product_images/EEPIDL674835435/img_5.jpg",
+    "/images/product_images/EEPIDL674835435/img_6.jpg",
+    "/images/product_images/EEPIDL674835435/img_7.jpg"
+  ],
+  "price": 76490,
+  "rating": 4.6,
+  "org_price": 94933,
+  "discount": 19,
+  "total_rating": 142,
+  "category": "Laptop",
+  "brand": "HP",
+  "charger": 200,
+  "model_series": "Victus 15",
+  "model_number": "15-fb3124AX",
+  "purpose": "Gaming",
+  "processor": {
+    "brand": "AMD",
+    "model": "Ryzen 7",
+    "varient": "7435HS",
+    "cores": "8-cores",
+    "cache": "16 MB",
+    "speed": "3.1 GHz",
+    "max_speed": "4.5 GHz"
+  },
+  "GPU": {
+    "brand": "NVIDIA",
+    "model": "GeForce RTX 4050",
+    "type": "Dedicated",
+    "memory": "6GB"
+  },
+  "ram": {
+    "technology": "DDR5",
+    "memory": "16GB"
+  },
+  "storage": {
+    "technology": "M.2 PCIe NVMe SSD",
+    "storage": "512GB"
+  },
+  "display": {
+    "technology": "IPS",
+    "size": "15.6 Inches/39.62 cm",
+    "resolution": "1920 x 1080 pixels",
+    "refresh_rate": "144Hz",
+    "ratio": "16:9",
+    "brightness": "250Nits",
+    "touch": "No",
+    "additional": "FHD, 45% NTSC, Micro-edge, Anti-glare"
+  },
+  "OS": {
+    "brand": "Microsoft",
+    "type": "Windows",
+    "version": "Windows 11 Home"
+  },
+  "slots": {
+    "audio": "3.5mm - Headphone/Microphone Combo Port",
+    "USB_ports": "3",
+    "USB_types": "1 x USB-C (DisplayPort 1.4, HP Sleep and Charge), 2 x USB-A",
+    "HDMI": "1 x HDMI 2.1"
+  },
+  "network": {
+    "bluetooth": "Bluetooth 5.3",
+    "wifi": "Wi-Fi 6"
+  },
+  "power": {
+    "technology": "Li-ion polymer",
+    "fast_charging": "Yes",
+    "cells": "3",
+    "time": "50% in 30 minutes",
+    "power": "52.5 Wh"
+  },
+  "additional_features": {
+    "Keyboard Specification": {
+      "Type of Keyboard": "Full-size, Backlit, Performance Blue Keyboard with Numeric Keypad"
+    }
+  },
+  "addon": "backpack",
+  "benefits": "Xbox Game Pass (3 months)"
+},
+{
+  "_id": "EEPIDM251527934",
+  "name": "vivo Y400 Pro 5G (8GB RAM, 256GB, Freestyle White)",
+  "other_imgs": [
+    "/images/product_images/img_1.png",
+    "/images/product_images/img_2.png",
+    "/images/product_images/img_3.png",
+    "/images/product_images/img_4.png",
+    "/images/product_images/img_5.png",
+    "/images/product_images/img_6.png",
+    "/images/product_images/img_7.png"
+  ],
+  "price": 27999,
+  "rating": 4,
+  "org_price": 31999,
+  "discount": 12,
+  "total_rating": 85,
+  "category": "Mobile",
+  "brand": "Vivo",
+  "charger": 90,
+  "model_series": "Y400 Pro",
+  "model_number": "PD2451BFIN",
+  "processor": {
+    "brand": "MediaTek",
+    "model": "Dimensity 7300",
+    "cores": "Octa Core",
+    "GPU": "nil"
+  },
+  "GPU": {
+    "brand": "nil",
+    "model": "nil"
+  },
+  "ram": {
+    "memory": "8GB"
+  },
+  "storage": {
+    "card_capacity": "1TB",
+    "storage": "256GB",
+    "memory_card_support": "no",
+    "memory_card_slot_technology": "nil",
+    "OTG": "Yes"
+  },
+  "display": {
+    "technology": "AMOLED",
+    "size": "6.77 Inches/17.2 cm",
+    "resolution": "2392 x 1080 pixels",
+    "refresh_rate": "120Hz",
+    "brightness": "24500Nits"
+  },
+  "OS": {
+    "brand": "Google",
+    "type": "Andriod OS",
+    "version": "Andriod 15",
+    "UI": "OxygenOS 15.0",
+    "update": "4 x OS Upgrades ",
+    "security": "-"
+  },
+  "slots": {
+    "audio": "3.5mm - Headphone/Microphone Combo Port",
+    "sim_slots": "2",
+    "sim_type": "Nano",
+    "hybrid_slot": "no"
+  },
+  "network": {
+    "bluetooth": "Bluetooth 5.4",
+    "wifi": "Wi-Fi 6",
+    "cellular": "5G",
+    "network_technology": "LTE",
+    "infrared": "Yes"
+  },
+  "power": {
+    "technology": "Lithium-Ion",
+    "fast_charging": "Yes",
+    "capacity": "5500 mAh",
+    "pin": "USB Type-C",
+    "type": "Non-Removable",
+    "additional": "90W Flash Charge"
+  },
+  "addon": "adapter",
+  "additional_features": {
+    "Camera": {
+      "Camera Features": "Rear Camera: Aperture: f/1.79 (50 MP) + f/2.4 (2 MP), Scene Mode: Photo, Portrait, Night, Video, 50 MP, Pano, Ultra HD Document, Slo-mo, Time-lapse, Supermoon, Pro, Food, Dual View, Film Camera | Front Camera: Aperture: f/2.45 (32 MP), Photo, Portrait, Night, Video, Dual View, Film Camera"
+    },
+    "Physical Attributes": {
+      "Buttons & Controls": "Volume Up/Down | Power Control",
+      "Additional Physical Features": "Composite Plastic Sheet, Segment's Slimmest 3D Curved Display, Premium Design: Light Weight & Minimalist Body, 24-Dimension Security Protection, U8 Light-Emitting Material",
+      "Fingerprint Reader Placement": "In-Display"
+    },
+    "More Feautres": {
+      "Included Software": "Google Apps",
+      "Features": "Multi-touch, P3 Color Gamut, 387 PPI Pixel Density, Contrast Ratio: 8000000:1, 300 Hz High-Speed Touch Sampling Rate, Video Playback: MP4, 3GP, AVI, FLV, MKV, WEBM, TS, ASF, Location: GPS, BeiDou, GLONASS, Galileo, QZSS, Wet-Hand Touch Technology"
+    }
+  }
+},
+{
+  "_id": "EEPIDM520936763",
+  "name": "OnePlus Nord CE4 5G (8GB RAM, 128GB, Nexus Blue)",
+  "other_imgs": [
+    "/images/product_images/EEPIDM520936763/img.jpg",
+    "/images/product_images/EEPIDM520936763/img_2.jpg",
+    "/images/product_images/EEPIDM520936763/img_3.jpg",
+    "/images/product_images/EEPIDM520936763/img_4.jpg",
+    "/images/product_images/EEPIDM520936763/img_5.jpg",
+    "/images/product_images/EEPIDM520936763/img_6.jpg",
+    "/images/product_images/EEPIDM520936763/img_7.jpg"
+  ],
+  "price": 19999,
+  "rating": 4.5,
+  "org_price": 24999,
+  "discount": 14,
+  "total_rating": 342,
+  "category": "Mobile",
+  "brand": "OnePlus",
+  "charger": 1,
+  "model_series": "Nord CE4",
+  "model_number": "CPH2613",
+  "processor": {
+    "brand": "Qualcomm",
+    "model": "Snapdragon 7 Gen 3",
+    "cores": "Octa Core",
+    "GPU": "Adreno 720"
+  },
+  "GPU": {
+    "brand": "Qualcomm",
+    "model": "Adreno 720"
+  },
+  "ram": {
+    "memory": "8GB"
+  },
+  "storage": {
+    "card_capacity": "1 TB",
+    "storage": "128GB",
+    "memory_card_support": "Yes",
+    "memory_card_slot_technology": "Hybrid Slot",
+    "OTG": "Yes"
+  },
+  "display": {
+    "technology": "AMOLED",
+    "size": "6.7 inches",
+    "resolution": "2412 x 1080 pixels",
+    "refresh_rate": "120 Hz",
+    "brightness": "1100 Nits"
+  },
+  "OS": {
+    "brand": "Google",
+    "type": "Android OS",
+    "version": "14",
+    "UI": "OxygenOS 14",
+    "update": "2 Years OS Updates",
+    "security": "-"
+  },
+  "slots": {
+    "audio": "USB Type-C",
+    "sim_slots": "2",
+    "sim_type": "Nano",
+    "hybrid_slot": "Yes"
+  },
+  "network": {
+    "bluetooth": "5.4",
+    "wifi": "Wi-Fi 6",
+    "cellular": "5G",
+    "network_technology": "LTE",
+    "infrared": "Yes"
+  },
+  "power": {
+    "technology": "Lithium-Ion",
+    "fast_charging": "Yes",
+    "capacity": "5500 mAh",
+    "pin": "USB Type-C",
+    "type": "Non-Removable",
+    "additional": "100W SUPERVOOC Fast Charging"
+  },
+  "additional_features": {
+    "Camera": {
+      "Camera Features": "50MP Main (Sony LYT-600, OIS) + 8MP Ultra-Wide (Sony IMX355) | 16MP Front | 4K Video at 30fps"
+    },
+    "Physical Attributes": {
+      "Buttons & Controls": "Volume Up/Down | Power Control",
+      "Additional Physical Features": "Polycarbonate Body | 186g | IP54 Dust and Water Resistance",
+      "Fingerprint Reader Placement": "In-Display"
+    },
+    "More Features": {
+      "Included Software": "Google Apps",
+      "Features": "Aqua Touch, X-axis Linear Motor, Hi-Res Audio, Stereo Speakers, Dual-view Video"
+    }
+  },
+  "addon": "adapter"
+},
+{
+  "_id": "EEPIDM265466775",
+  "name": "vivo Y31 5G (6GB RAM, 128GB, Diamond Green)",
+  "other_imgs": [
+    "/images/product_images/EEPIDM265466775/img.jpg",
+    "/images/product_images/EEPIDM265466775/img_2.jpg",
+    "/images/product_images/EEPIDM265466775/img_3.jpg",
+    "/images/product_images/EEPIDM265466775/img_4.jpg",
+    "/images/product_images/EEPIDM265466775/img_5.jpg",
+    "/images/product_images/EEPIDM265466775/img_6.jpg",
+    "/images/product_images/EEPIDM265466775/img_7.jpg"
+  ],
+  "price": 16499,
+  "rating": 4.1,
+  "org_price": 21499,
+  "discount": 25,
+  "total_rating": 218,
+  "category": "Mobile",
+  "brand": "vivo",
+  "charger": 1,
+  "model_series": "Y Series",
+  "model_number": "Y31 5G",
+  "processor": {
+    "brand": "Qualcomm",
+    "model": "Snapdragon 4 Gen 2",
+    "cores": "Octa Core",
+    "GPU": "Adreno 613"
+  },
+  "GPU": {
+    "brand": "Qualcomm",
+    "model": "Adreno 613"
+  },
+  "ram": {
+    "memory": "6GB"
+  },
+  "storage": {
+    "card_capacity": "2 TB",
+    "storage": "128GB",
+    "memory_card_support": "Yes",
+    "memory_card_slot_technology": "Hybrid Slot",
+    "OTG": "Yes"
+  },
+  "display": {
+    "technology": "LCD",
+    "size": "6.68 inches",
+    "resolution": "1608 x 720 pixels",
+    "refresh_rate": "120 Hz",
+    "brightness": "1000 Nits"
+  },
+  "OS": {
+    "brand": "Google",
+    "type": "Android OS",
+    "version": "15",
+    "UI": "Funtouch OS 15",
+    "update": "nil",
+    "security": "-"
+  },
+  "slots": {
+    "audio": "USB Type-C",
+    "sim_slots": "2",
+    "sim_type": "Nano",
+    "hybrid_slot": "Yes"
+  },
+  "network": {
+    "bluetooth": "4.2",
+    "wifi": "2.4 GHz / 5 GHz",
+    "cellular": "5G",
+    "network_technology": "LTE",
+    "infrared": "No"
+  },
+  "power": {
+    "technology": "Lithium-Ion",
+    "fast_charging": "Yes",
+    "capacity": "6500 mAh",
+    "pin": "USB Type-C",
+    "type": "Non-Removable",
+    "additional": "44W Flash Charge"
+  },
+  "additional_features": {
+    "Camera": {
+      "Camera Features": "50MP Main (f/1.8) + 0.08MP (f/3.0) Dual Rear | 8MP Front (f/2.0) | Night, Portrait, Slo-mo, Underwater Photography"
+    },
+    "Physical Attributes": {
+      "Buttons & Controls": "Volume Up/Down | Power Control",
+      "Additional Physical Features": "Plastic Body | 209g | IP68 and IP69 Dust/Water Resistance | SGS 5-Star Drop Resistance",
+      "Fingerprint Reader Placement": "Side"
+    },
+    "More Features": {
+      "Included Software": "Google Apps",
+      "Features": "Accelerometer, Ambient Light Sensor, Proximity Sensor, E-compass | AI Erase | Circle to Search | Dual Stereo Speakers"
+    }
+  },
+  "addon": "adapter"
+},
+{
+  "_id": "EEPIDM396649221",
+  "name": "Apple iPhone 16 (128GB, Black)",
+  "other_imgs": [
+    "/images/product_images/EEPIDM396649221/img.jpg",
+    "/images/product_images/EEPIDM396649221/img_2.jpg",
+    "/images/product_images/EEPIDM396649221/img_3.jpg",
+    "/images/product_images/EEPIDM396649221/img_4.jpg",
+    "/images/product_images/EEPIDM396649221/img_5.jpg",
+    "/images/product_images/EEPIDM396649221/img_6.jpg"
+  ],
+  "price": 64590,
+  "rating": 4.2,
+  "org_price": 69900,
+  "discount": 8,
+  "total_rating": 214,
+  "category": "Mobile",
+  "brand": "Apple",
+  "charger": 0,
+  "model_series": "iPhone 16",
+  "model_number": "A3287",
+  "processor": {
+    "brand": "Apple",
+    "model": "A18 Chip",
+    "cores": "Hexa-Core",
+    "GPU": "5-core GPU"
+  },
+  "GPU": {
+    "brand": "Apple",
+    "model": "Apple GPU (5-core graphics)"
+  },
+  "ram": {
+    "memory": "8GB"
+  },
+  "storage": {
+    "card_capacity": "nil",
+    "storage": "128GB",
+    "memory_card_support": "No",
+    "memory_card_slot_technology": "nil",
+    "OTG": "Yes"
+  },
+  "display": {
+    "technology": "Super Retina XDR OLED",
+    "size": "6.1 inch",
+    "resolution": "2556 x 1179 pixels",
+    "refresh_rate": "60 Hz",
+    "brightness": "2000 Nits"
+  },
+  "OS": {
+    "brand": "Apple",
+    "type": "iOS",
+    "version": "18",
+    "UI": "nil",
+    "update": "7 Years (Estimated)",
+    "security": "-"
+  },
+  "slots": {
+    "audio": "USB Type-C",
+    "sim_slots": "2",
+    "sim_type": "Nano + eSIM",
+    "hybrid_slot": "No"
+  },
+  "network": {
+    "bluetooth": "5.3",
+    "wifi": "Wi‑Fi 7 (802.11be)",
+    "cellular": "5G",
+    "network_technology": "LTE",
+    "infrared": "No"
+  },
+  "power": {
+    "technology": "Lithium-Ion",
+    "fast_charging": "Yes",
+    "capacity": "3561 mAh",
+    "pin": "USB Type-C",
+    "type": "Non-Removable",
+    "additional": "Up to 25W MagSafe | 50% charge in 30 mins"
+  },
+  "additional_features": {
+    "Camera": {
+      "Camera Features": "48MP Fusion (f/1.6, OIS) + 12MP Ultra Wide (f/2.2) | 2x Optical Quality Telephoto | 4K Dolby Vision 60fps | Camera Control"
+    },
+    "Physical Attributes": {
+      "Buttons & Controls": "Volume Up/Down | Action Button | Camera Control",
+      "Additional Physical Features": "Aerospace-grade Aluminum | Ceramic Shield | 170g | IP68 Rated",
+      "Fingerprint Reader Placement": "Face ID"
+    },
+    "More Features": {
+      "Included Software": "Apple Intelligence | iOS 18",
+      "Features": "Emergency SOS via Satellite | Crash Detection | Roadside Assistance | Spatial Photos"
+    }
+  },
+  "addon": "adapter"
+},
+{
+  "_id": "EEPIDL745860524",
+  "name": "Apple MacBook Air (13.6 inch, M4, 16GB, 256GB, macOS, Midnight)",
+  "other_imgs": [
+    "/images/product_images/EEPIDL745860524/img.jpg",
+    "/images/product_images/EEPIDL745860524/img_2.jpg",
+    "/images/product_images/EEPIDL745860524/img_3.jpg",
+    "/images/product_images/EEPIDL745860524/img_4.jpg"
+  ],
+  "price": 93290,
+  "rating": 2.3,
+  "org_price": 99900,
+  "discount": 7,
+  "total_rating": 2,
+  "category": "Laptop",
+  "brand": "Apple",
+  "charger": 30,
+  "model_series": "MacBook Air M4",
+  "model_number": "MW123HN/A",
+  "purpose": "Productivity",
+  "processor": {
+    "brand": "Apple",
+    "model": "M4",
+    "varient": "M4 chip",
+    "cores": "10-cores",
+    "cache": "Not Specified",
+    "speed": "Not Specified",
+    "max_speed": "Not Specified"
+  },
+  "GPU": {
+    "brand": "Apple",
+    "model": "M4 8-core GPU",
+    "type": "Integrated",
+    "memory": "Shared"
+  },
+  "ram": {
+    "technology": "Unified Memory",
+    "memory": "16GB"
+  },
+  "storage": {
+    "technology": "SSD",
+    "storage": "256GB"
+  },
+  "display": {
+    "technology": "Liquid Retina (IPS)",
+    "size": "13.6 Inches/34.46 cm",
+    "resolution": "2560 x 1664 pixels",
+    "refresh_rate": "60Hz",
+    "ratio": "Not Specified",
+    "brightness": "500Nits",
+    "touch": "No",
+    "additional": "Wide colour (P3), True Tone technology, 1 billion colours, 224 PPI"
+  },
+  "OS": {
+    "brand": "Apple",
+    "type": "macOS",
+    "version": "macOS Sequoia"
+  },
+  "slots": {
+    "audio": "3.5mm Headphone Jack",
+    "USB_ports": "2",
+    "USB_types": "2 x Thunderbolt 4 (USB-C) with support for Charging, DisplayPort, Thunderbolt 4 (up to 40Gb/s), USB 4 (up to 40Gb/s)",
+    "HDMI": "None"
+  },
+  "network": {
+    "bluetooth": "Bluetooth 5.3",
+    "wifi": "Wi-Fi 6E (802.11ax)"
+  },
+  "power": {
+    "technology": "Lithium-polymer",
+    "fast_charging": "Yes (with 70W adapter)",
+    "cells": "Not Specified",
+    "time": "Up to 18 hours video playback",
+    "power": "53.8 Wh"
+  },
+  "additional_features": {
+    "Keyboard Specification": {
+      "Type of Keyboard": "Backlit Magic Keyboard with Touch ID"
+    },
+    "Camera": {
+      "Resolution": "12MP Center Stage camera",
+      "Features": "1080p HD video recording, Advanced image signal processor"
+    },
+    "Audio": {
+      "Speakers": "Four-speaker sound system",
+      "Features": "Spatial Audio, Dolby Atmos, Three-mic array"
+    }
+  },
+  "addon": "backpack",
+  "benefits": "Apple Intelligence Support"
+}]
