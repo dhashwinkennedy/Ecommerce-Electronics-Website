@@ -1,0 +1,87 @@
+.productSpecModel-main-content {
+    width: 1400px;
+    height: 2550px;
+    margin: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: all 0.3s ease-in-out;
+    background-color: #fafafa;
+    border: 1px solid rgb(193, 193, 193);
+
+}
+.productSpecModel-main-content.Laptop {
+    height: 2500px;
+
+}
+.productSpecModel-main-content.Mobile {
+    height: 2320px;
+
+}
+.productSpecModel-model-title {
+    margin: 0 0 20px 0;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    margin: 50px;
+    margin-bottom: 70px;
+}
+
+/* Yellow underline accent (same as your screenshot) */
+.productSpecModel-model-title.accent::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    height: 4px;
+    width: 100%;            /* full width of the text */
+    background-color: #f4b000;    /* accent color */
+    transform: scaleX(0.85);      /* underline covers 85% of text width */
+    transform-origin: left;       /* underline starts from left */
+    border-radius: 2px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 20px; /* NEW: This creates 20px of space BETWEEN items (columns and lines) */
+    margin-bottom: 20px; /* Optional: Adds space between your rows */
+}
+
+
+.column {
+display: flex;
+ flex-direction: column;
+gap: 0px;
+    
+    /* ★ ★ ★ REFINED FIX: Increased pixel subtraction to pull content left ★ ★ ★ */
+    /* This makes the column slightly narrower, aligning it closer to the left. */
+    width: calc(33.33% - 35px); 
+
+}
+
+.productSpecModel-body {
+    margin: 100px;
+    margin-top: -30px;
+}
+
+.vertical-line {
+    width: 1px ; 
+    position: relative;
+    top: 15px;
+    height: 70px; /* Adjust this value to make the line longer or shorter */
+    background-color:  rgb(193, 193, 193); /* Dark gray line color */
+    
+    /* margin: 0 10px; */ /* REMOVED: The 'gap' property on .row handles spacing. */
+}
+
+
+.productSpecModel-model-subtitle{
+    margin: 20px 0 15px 0;
+    font-size: 22px;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    /* margin: 45px; */
+}

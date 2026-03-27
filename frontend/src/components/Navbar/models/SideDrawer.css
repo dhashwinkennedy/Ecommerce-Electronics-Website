@@ -1,0 +1,150 @@
+.side-drawer-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.45);
+  z-index: 1000;
+  transition: all 0.3s ease;
+}
+
+.side-drawer {
+  position: fixed;
+  top: 0;
+  width: 300px;
+  height: 100%;
+  background: #fff;
+  box-shadow: -4px 0 15px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: right 0.35s ease-in-out;
+  z-index: 1100;
+}
+
+.side-drawer.right {
+  right: -320px;
+}
+
+.side-drawer.right.open {
+  right: 0;
+}
+
+.side-drawer-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.side-drawer-header h2 {
+  font-size: 1.4rem;
+  color: #333;
+  font-weight: 600;
+  margin: 0;
+}
+
+.close-btn {
+  background: transparent;
+  border: none;
+  font-size: 1.3rem;
+  cursor: pointer;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.close-btn:hover {
+  color: #ffc107;
+}
+
+.side-drawer-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex-grow: 1;
+}
+
+.side-drawer-list li {
+  margin-bottom: 15px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* ✅ style li directly since you use onClick on li not anchor tags */
+.side-drawer-list li,
+.side-drawer-list a {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  color: #333;
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 12px 15px;
+  transition: all 0.3s ease;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.side-drawer-list li:hover,
+.side-drawer-list a:hover {
+  background-color: rgba(255, 193, 7, 0.15);
+  color: #000;
+  transform: translateX(-3px);
+}
+
+.drawer-icon {
+  font-size: 1.3rem;
+  color: #ffc107;
+  min-width: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* ✅ vertically center icon */
+}
+
+.drawer-text {
+  flex: 1;
+}
+
+/* ✅ pincode section — same style as menu items */
+.drawer-location.footer {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background-color: rgba(255, 193, 7, 0.08);
+  border-radius: 10px;
+  padding: 12px 15px;
+  margin-top: 15px;
+  cursor: pointer;
+  transition:
+    background 0.3s ease,
+    transform 0.3s ease;
+}
+
+.drawer-location.footer:hover {
+  background-color: rgba(255, 193, 7, 0.2);
+  transform: translateX(-2px);
+}
+
+.location-text {
+  display: flex;
+  flex-direction: column;
+  color: #333;
+}
+
+.pincode-label {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.pincode-value {
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+.pincode-change {
+  font-size: 0.75rem;
+  color: #555;
+}

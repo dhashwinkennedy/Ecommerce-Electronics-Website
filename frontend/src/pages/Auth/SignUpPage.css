@@ -1,0 +1,236 @@
+.SignUpPage {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #eaeaea;
+  padding: 70px 50px;
+  box-sizing: border-box;
+}
+
+.SignUpPage-main-content {
+  width: 100%;
+  max-width: 1200px;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 20px;
+  padding-top: 60px;
+}
+
+/* THE MAIN CARD: Forces children to stack vertically */
+.SignUpPage-main-account-card {
+  display: flex;
+  flex-direction: column;
+  gap: 25px; /* Adds space between the blocks */
+  border: 2px solid #f4b000;
+  border-radius: 13px;
+  padding: 30px;
+  background-color: #fff;
+  margin: 60px;
+  margin-left: 175px;
+  margin-right: 175px;
+}
+
+/* BLOCK 1: Forces Names to stay side-by-side */
+.SignUpPage-name-row-block {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 100%;
+}
+
+/* Common input group style */
+.SignUpPage-inp-grp {
+  display: flex;
+  flex-direction: column;
+  flex: 1; /* Makes the name inputs share space equally */
+  width: 100%;
+  margin: 10px;
+
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.SignUpPage-error-text {
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+/* Controls width of Email/Phone so they don't stretch too thin */
+.SignUpPage-main-account-card > .inp-grp {
+  max-width: 500px; /* Optional: adjust this to control how wide Email/Phone are */
+}
+
+.SignUpPage-span-label {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+.SignUpPage-field-error-text {
+  color: red;
+}
+.SignUpPage-text-inp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+  padding: 12px 15px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-sizing: border-box; /* Prevents input from overflowing */
+}
+.SignUpPage-main-title {
+  margin: 0 0 25px 0;
+  font-size: 28px;
+  font-weight: bold;
+  position: relative;
+  display: inline-block;
+  color: #333;
+}
+
+.SignUpPage-main-title.accent::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  height: 4px;
+  width: 100%;
+  background-color: #f4b000;
+  transform: scaleX(0.65);
+  transform-origin: left;
+  border-radius: 2px;
+}
+
+.SignUpPage-logo-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+
+  width: 45%;
+  margin-top: 35px;
+  margin-bottom: 50px;
+}
+.SignUpPage-page-subtitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  font-size: 34px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  letter-spacing: 3px;
+}
+.SignUpPage-profile-pic {
+  width: 25%;
+  height: 25%;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #ffc107;
+  margin: 30px;
+  margin-top: 105px;
+}
+.SignUpPage-name-block {
+  margin: 15px;
+  /* margin-left: 20px; */
+}
+.SignUpPage-smalltext-inp {
+  width: 450px;
+  padding: 12px 15px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-sizing: border-box; /* Prevents input from overflowing */
+}
+
+.SignUpPage-btn-enabled {
+  background-color: #ffc619;
+  border: 2px solid white;
+  color: #333;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-weight: 800;
+  width: 200px;
+  height: 50px;
+  margin: auto;
+  transition:
+    background-color 0.1s,
+    opacity 0.1s;
+}
+.SignUpPage-btn-enabled:hover {
+  background-color: #e09f00;
+  cursor: pointer;
+}
+.SignUpPage-btn-disabled {
+  background-color: #ccc;
+  color: #f7f4eb;
+  border: 2px solid #ccc;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-weight: 800;
+  width: 200px;
+  margin: auto;
+  height: 50px;
+  transition:
+    background-color 0.1s,
+    opacity 0.1s;
+}
+.SignUpPage-btn-disabled:hover {
+  cursor: not-allowed;
+}
+.SignUpPage-smalltext-inp-error {
+  width: 450px;
+  padding: 12px 15px;
+  font-size: 16px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-sizing: border-box; /* Prevents input from overflowing */
+  border: 1px solid red;
+}
+
+.SignUpPage-text-inp-error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+  padding: 12px 15px;
+  font-size: 16px;
+  border: 1px solid red;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-sizing: border-box; /* Prevents input from overflowing */
+}
+
+.SignUpPage-textlink {
+  color: #3c6fe5;
+  text-decoration: underline;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+}
+
+.SignUpPage-textlink:hover {
+  color: #2c4fa3;
+  cursor: pointer;
+}

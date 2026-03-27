@@ -1,0 +1,108 @@
+/* Dark background overlay */
+.pincode-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.45);
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  z-index: 2000;
+  animation: fadeIn 0.3s ease;
+}
+
+/* Drawer popup effect */
+.pincode-popup-drawer {
+  margin-top: 6rem;
+  background: #fff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  width: 360px;
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.15);
+  animation: slideDown 0.3s ease;
+}
+
+.pincode-popup-drawer h3 {
+  margin: 0 0 1rem;
+  color: #333;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.pincode-popup-drawer input {
+  width: 100%;
+  padding: 0.7rem;
+  border: 1.5px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  text-align: center;
+  transition: border-color 0.2s;
+}
+
+.pincode-popup-drawer input:focus {
+  outline: none;
+  border-color: #ffc107;
+  box-shadow: 0 0 6px rgba(255, 193, 7, 0.3);
+}
+
+/* Buttons */
+.pincode-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.cancel-btn,
+.save-btn {
+  flex: 1;
+  padding: 0.6rem 0;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.cancel-btn {
+  background: #f0f0f0;
+  color: #333;
+  margin-right: 0.5rem;
+}
+
+.cancel-btn:hover {
+  background: #ddd;
+}
+
+.save-btn {
+  background: #ffc107;
+  color: #000;
+  font-weight: 600;
+}
+
+.save-btn:hover {
+  background: #ffca28;
+}
+
+/* Animations */
+@keyframes slideDown {
+  from {
+    transform: translateY(-25px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+  

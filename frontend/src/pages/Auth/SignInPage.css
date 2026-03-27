@@ -1,0 +1,187 @@
+.SignInPage {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #eaeaea;
+  padding: 70px 50px;
+  box-sizing: border-box;
+}
+
+.SignInPage-main-content {
+  width: 100%;
+  max-width: 1200px;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 20px;
+  padding-top: 60px;
+}
+
+/* THE MAIN CARD: Forces children to stack vertically */
+.SignInPage-main-account-card {
+  display: flex;
+  flex-direction: column;
+  gap: 25px; /* Adds space between the blocks */
+  border: 2px solid #f4b000;
+  border-radius: 13px;
+  padding: 30px;
+  background-color: #fff;
+  margin: 60px;
+  margin-left: 175px;
+  margin-right: 175px;
+}
+
+/* Common input group style */
+.SignInPage-inp-grp {
+  display: flex;
+  flex-direction: column;
+  flex: 1; /* Makes the name inputs share space equally */
+  width: 100%;
+  margin: 10px;
+
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* Controls width of Email/Phone so they don't stretch too thin */
+.SignIpPage-main-account-card > .inp-grp {
+  max-width: 500px; /* Optional: adjust this to control how wide Email/Phone are */
+}
+
+.SignInPage-span-label {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.SignInPage-text-inp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+  padding: 12px 15px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-sizing: border-box; /* Prevents input from overflowing */
+}
+.SignInPage-main-title {
+  margin: 0 0 25px 0;
+  font-size: 28px;
+  font-weight: bold;
+  position: relative;
+  display: inline-block;
+  color: #333;
+}
+
+.SignInPage-main-title.accent::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  height: 4px;
+  width: 100%;
+  background-color: #f4b000;
+  transform: scaleX(0.65);
+  transform-origin: left;
+  border-radius: 2px;
+}
+
+.SignInPage-logo-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+
+  width: 45%;
+  margin-top: 35px;
+  margin-bottom: 50px;
+}
+.SignInPage-page-subtitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  font-size: 34px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+.SignInPage-btn-enabled {
+  background-color: #ffc619;
+  border: 2px solid white;
+  color: #333;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-weight: 800;
+  width: 200px;
+  height: 50px;
+  margin: auto;
+  transition:
+    background-color 0.1s,
+    opacity 0.1s;
+}
+.SignInPage-btn-enabled:hover {
+  background-color: #e09f00;
+  cursor: pointer;
+}
+.SignInPage-btn-disabled {
+  background-color: #ccc;
+  color: #f7f4eb;
+  border: 2px solid #ccc;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-weight: 800;
+  width: 200px;
+  margin: auto;
+  height: 50px;
+  transition:
+    background-color 0.1s,
+    opacity 0.1s;
+}
+.SignInPage-btn-disabled:hover {
+  cursor: not-allowed;
+}
+
+.SignInPage-text-inp-error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+  padding: 12px 15px;
+  font-size: 16px;
+  border: 1px solid red;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-sizing: border-box; /* Prevents input from overflowing */
+}
+
+.SignInPage-textlink {
+  color: #3c6fe5;
+  text-decoration: underline;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+}
+
+.SignInPage-textlink:hover {
+  color: #2c4fa3;
+  cursor: pointer;
+}

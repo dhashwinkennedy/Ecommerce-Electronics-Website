@@ -1,0 +1,174 @@
+.checkoutpage {
+  width: 100%;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: #eaeaea;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.checkoutpage-main-content {
+  min-width: 1515px;
+  max-width: 1515px;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow:
+    0 -5px 15px -5px rgba(0, 0, 0, 0.2),
+    0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.checkoutpage-main-title {
+  margin: 0 0 20px 0;
+  font-size: 28px;
+  font-weight: bold;
+  position: relative;
+  display: inline-block;
+}
+
+.checkoutpage-main-title.accent::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  height: 4px;
+  width: 100%;
+  background-color: #f4b000;
+  transform: scaleX(0.65);
+  transform-origin: left;
+  border-radius: 2px;
+}
+
+.cartpage-items {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+.cart-layout {
+  display: flex;
+  width: 100%;
+  gap: 50px;
+}
+
+.cart-left {
+  flex: 1;
+}
+.cart-right {
+  flex: 1;
+}
+
+.cart-separator {
+  width: 4px;
+  background-color: #f4b000;
+  border-radius: 4px;
+  align-self: stretch;
+  min-height: 550px;
+}
+
+.cart-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+  width: 400px;
+}
+
+.cart-left-text {
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.cart-right-text {
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.cart-right-text.green {
+  color: green;
+}
+
+.thin-black-line {
+  width: 400px;
+  height: 1px;
+  background-color: black;
+}
+
+/* ✅ pincode section — same design as SideDrawer, placed before checkout button */
+.drawer-location.footer {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background-color: rgba(255, 193, 7, 0.08);
+  border-radius: 10px;
+  padding: 12px 15px;
+  margin-bottom: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  width: 400px;
+  box-sizing: border-box;
+}
+
+.drawer-location.footer:hover {
+  background-color: rgba(255, 193, 7, 0.2);
+}
+
+.drawer-icon {
+  font-size: 1.3rem;
+  color: #ffc107;
+  min-width: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.location-text {
+  display: flex;
+  flex-direction: column;
+  color: #333;
+  gap: 2px;
+}
+
+.pincode-label {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #555;
+}
+
+.pincode-value {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #222;
+}
+
+.pincode-change {
+  font-size: 0.75rem;
+  color: #f4b000;
+}
+
+.checkout-button {
+  background-color: #f4b000;
+  width: 350px;
+  height: 60px;
+  border: none;
+  display: block; /* ← add this */
+  margin: 20px auto 0 auto; /* ← center horizontally */
+  box-sizing: border-box;
+  box-shadow:
+    0 -5px 15px -5px rgba(0, 0, 0, 0.2),
+    0 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.checkout-button:hover {
+  color: #fff;
+}

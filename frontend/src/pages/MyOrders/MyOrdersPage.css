@@ -1,0 +1,182 @@
+/* Outer wrapper that always fills full page */
+.orderpage {
+  width: 100%;
+  flex-wrap: wrap;
+  min-height: 100vh;         /* 🔥 Ensures the page is at least full screen */
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: center;
+  background-color: #eaeaea; /* The BG behind the white popup effect */
+  padding: 20px ;
+  box-sizing: border-box;
+}
+
+/* White popup-like box */
+.orderpage-main-content {
+  min-width: 1515px;
+
+  max-width: 1515px;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow:
+      0 -5px 15px -5px rgba(0, 0, 0, 0.2),
+      0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Title styling */
+.orderpage-main-title {
+  margin: 0 0 20px 0;
+  font-size: 28px;
+  font-weight: bold;
+  position: relative;
+  display: inline-block;
+}
+
+/* Yellow underline accent (same as your screenshot) */
+.orderpage-main-title.accent::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  height: 4px;
+  width: 100%;                   /* full width of the text */
+  background-color: #f4b000;     /* accent color */
+  transform: scaleX(0.65);       /* underline covers 65% of text width */
+  transform-origin: left;        /* underline starts from left */
+  border-radius: 2px;
+
+}
+
+.orderpage-items{
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  /* top: 90px; */
+  /* left: -90px; */
+  margin-top: 50px;
+  margin-left: 30px;
+
+}
+
+.orderpage-underline-vertical{
+  width: 6px;               /* thickness */
+  min-height: 600px;
+  height: auto;    
+  display: flex;
+  flex-direction: column;         /* change this to resize vertically */
+  background-color: #f4b000;
+  border-radius: 4px;
+  margin-left: 975px;
+  justify-content: flex-start;
+  position: relative;
+  top: -200px;
+
+}
+
+/* main container */
+.order-layout {
+  display: flex;
+  width: 100%;
+  gap: 50px;          /* space between columns */
+}
+
+/* left column */
+.order-left {
+  flex: 1;
+}
+
+/* right column (empty for now) */
+.order-right {
+  flex: 1;
+}
+
+/* auto-stretching vertical line */
+.order-separator {
+  width: 4px;
+  background-color: #f4b000;
+  border-radius: 4px;
+
+  /* important: let height match container */
+  align-self: stretch;
+  min-height: 550px;
+}
+/* main container */
+.order-layout {
+  display: flex;
+  width: 100%;
+  gap: 50px;          /* space between columns */
+}
+
+/* left column */
+.order-left {
+  flex: 1;
+}
+
+/* right column (empty for now) */
+.order-right {
+  flex: 1;
+}
+
+/* auto-stretching vertical line */
+.order-row {
+  display: flex;
+  justify-content: space-between;  /* 🔥 auto spacing */
+  align-items: center;
+  margin: 20px 0;
+  width: 400px;        /* match your thin line width */
+}
+.order-left-text {
+  font-family: 'Lato', sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.order-right-text {
+  font-family: 'Lato', sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.order-right-text.green {
+  color: green;
+}
+
+.order-right-text.green {
+  color: green;
+}
+.order-black-line {
+    /* Define the length of the line */
+    width: 400px; 
+    
+    /* Define the thickness of the line (1px is very thin) */
+    height: 1px; 
+    
+    /* Set the color to black */
+    background-color: black; 
+    
+    /* Optional: Center the line on the page */
+}
+
+.checkout-button{
+  background-color: #f4b000;
+  width: 350px;
+  height: 60px;
+  border: none;
+  margin: 20px;
+  margin-left: 25px;
+  box-sizing: border-box;
+    box-shadow:
+      0 -5px 15px -5px rgba(0, 0, 0, 0.2),
+      0 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+
+    /* Set the text size */
+    font-size: 1.2rem; 
+    
+    /* Optional: Increase padding to make the button look proportionate */
+    padding: 10px 20px; 
+
+}
+

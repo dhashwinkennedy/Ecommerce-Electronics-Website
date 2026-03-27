@@ -1,0 +1,50 @@
+/* Outer wrapper that always fills full page */
+.page {
+  width: 100%;
+  flex-wrap: wrap;
+  min-height: 100vh;         /* 🔥 Ensures the page is at least full screen */
+  display: flex;
+  justify-content: center;
+  background-color: #eaeaea; /* The BG behind the white popup effect */
+  padding: 20px ;
+  box-sizing: border-box;
+}
+
+/* White popup-like box */
+.main-content {
+  min-width: 1515px;
+
+  max-width: 1515px;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow:
+      0 -5px 15px -5px rgba(0, 0, 0, 0.2),
+      0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Title styling */
+.main-title {
+  margin: 0 0 20px 0;
+  font-size: 28px;
+  font-weight: bold;
+  position: relative;
+  display: inline-block;
+}
+
+/* Yellow underline accent (same as your screenshot) */
+.main-title.accent::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  height: 4px;
+  width: 100%;                   /* full width of the text */
+  background-color: #f4b000;     /* accent color */
+  transform: scaleX(0.65);       /* underline covers 65% of text width */
+  transform-origin: left;        /* underline starts from left */
+  border-radius: 2px;
+
+}
+

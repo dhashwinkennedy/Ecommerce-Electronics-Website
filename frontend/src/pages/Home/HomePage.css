@@ -1,0 +1,32 @@
+.HomePage {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* Banner remains as-is */
+.HomePage-banner-container {
+  width: 100%;
+  position: relative;
+  z-index: 0;
+}
+
+/* Main product area only — white bg */
+.HomePage-main-content {
+  width: 100%;
+  background-color: #ffffff; /* white only here */
+  display: flex;
+  /* justify-content: center; */
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 40px 15px;
+  box-sizing: border-box;
+  z-index: 1;
+  border-radius: 15px 15px 0 0;
+  box-shadow: 
+    /* Top shadow for the lift effect */
+    0 -5px 15px -5px rgba(0, 0, 0, 0.2),
+    /* General bottom shadow */ 0 5px 15px rgba(0, 0, 0, 0.1);
+}

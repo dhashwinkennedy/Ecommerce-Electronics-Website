@@ -1,0 +1,239 @@
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.nav-links li {
+  margin: 0 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.nav-links li.nav-logo {
+  margin-right: 2rem;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Logo section */
+/* .nav-logo {
+  display: flex;
+  align-items: center;
+  margin-left: -1rem; 
+} */
+
+.logo-icon {
+  height: 3rem;
+  width: auto;
+  object-fit: contain;
+  margin-left: -3rem;
+}
+
+/* Location section */
+.pincode-popup {
+  position: absolute;
+  top: 120%; /* slightly below the location element */
+  left: 50%; /* align with center of location */
+  transform: translateX(-50%); /* center it perfectly */
+  background: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  z-index: 999;
+  min-width: 220px;
+  animation: popupSlide 0.25s ease-out;
+}
+
+@keyframes popupSlide {
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* make sure parent has relative positioning */
+.nav-location {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  color: #333;
+}
+
+.nav-location:hover {
+  color: #ffc107;
+}
+.nav-location:hover .location-icon,
+.nav-location:hover .pincode,
+.nav-location:hover .change-text {
+  color: #ffc107;
+}
+
+.location-icon {
+  font-size: 1.2rem;
+  margin-right: 0.4rem;
+  color: #333;
+}
+
+.location-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+}
+
+.pincode {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.change-text {
+  font-size: 0.75rem;
+  color: #666;
+}
+
+/* search container (bigger) */
+.search-container {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border: 1.5px solid #ccc;
+  border-radius: 2rem;
+  overflow: hidden;
+  width: 620px; /* make longer */
+  transition: all 0.3s ease;
+}
+
+.search-container:focus-within {
+  border-color: #ffc107;
+  box-shadow: 0 0 8px rgba(255, 193, 7, 0.4);
+}
+
+.search-input {
+  flex: 1;
+  padding: 0.75rem 1rem;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  color: #333;
+}
+
+.search-divider {
+  width: 1px;
+  height: 1.8rem;
+  background-color: #ccc;
+}
+
+.search-button {
+  background-color: transparent;
+  border: none;
+  padding: 0.75rem 1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition:
+    background-color 0.3s ease,
+    transform 0.2s ease;
+}
+
+.search-button:hover {
+  background-color: #ffc107;
+  transform: scale(1.1);
+  border-radius: 50%;
+}
+
+.search-icon {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.search-button:hover .search-icon {
+  color: white;
+}
+
+/* Icons + links */
+.nav-icon-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-icon-link:hover {
+  color: #ffc107;
+}
+
+.nav-icon {
+  margin-right: 0.4rem;
+  font-size: 1.3rem;
+}
+
+/* Drawer button */
+.drawer-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 2rem; /* adjust slightly for spacing */
+  margin-top: -3px; /* fine-tune vertical alignment */
+  transform: translateX(-15px);
+}
+
+.drawer-btn {
+  font-size: 1.6rem;
+  background: none;
+  border: none;
+  color: #333;
+  cursor: pointer;
+  padding: 6px 10px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+}
+
+.drawer-btn:hover {
+  color: #ffb300;
+  background-color: rgba(255, 179, 0, 0.1);
+}
+
+.nav-text-link {
+  color: #333;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-text-link:hover {
+  color: #ffc107;
+}
+
+.search-button:hover {
+  background-color: #ffc107;
+  border-radius: 50%;
+  transition: background-color 0.2s ease;
+}
+.nav-items {
+  color: #333;
+}
+.nav-items:hover {
+  color: #ffc107;
+  cursor: pointer;
+}
+
+.nav-items span {
+  white-space: nowrap;
+}

@@ -1,0 +1,83 @@
+/* Main Table Container */
+.aft-container {
+  /* Requested Styles */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+  background-color: #fafafa;
+  border-radius: 12px;
+
+  /* Layout and Spacing */
+  width: 100%;
+  max-width: 1500px; /* Optional: prevents it from getting too wide */
+  margin: 20px auto;
+  overflow: hidden; /* Ensures child elements respect border-radius */
+  border: 1px solid #e0e0e0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Hover Effect for the Container */
+.aft-container:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+}
+
+/* Category Header Styling */
+.aft-category-header {
+  background-color: #eaeaea;
+  padding: 12px 20px;
+  font-weight: 700;
+  color: #333;
+  font-size: 1.1rem;
+  border-bottom: 1px solid #ddd;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* The Grid Row for Key/Value pairs */
+.aft-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two-column structure */
+  border-bottom: 1px solid #f0f0f0;
+}
+
+/* Remove border from the very last row to keep it clean */
+.aft-category-group:last-child .aft-row:last-child {
+  border-bottom: none;
+}
+
+/* Column 1: The Subtitle/Key (e.g., "Rear Camera Configuration") */
+.aft-col-key {
+  padding: 12px 20px;
+  color: #555;
+  font-weight: 500;
+  background-color: #fff;
+  border-right: 1px solid #f0f0f0;
+  display: flex;
+  align-items: center;
+}
+
+/* Column 2: The Value (e.g., "Dual Rear Camera") */
+.aft-col-value {
+  padding: 12px 20px;
+  color: #222;
+  font-weight: 600;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+/* Mobile Responsiveness: Stack columns on very small screens */
+@media (max-width: 600px) {
+  .aft-row {
+    grid-template-columns: 1fr;
+  }
+  .aft-col-key {
+    background-color: #f9f9f9;
+    font-size: 0.9rem;
+    padding-bottom: 4px;
+    border-right: none;
+  }
+  .aft-col-value {
+    padding-top: 4px;
+  }
+}

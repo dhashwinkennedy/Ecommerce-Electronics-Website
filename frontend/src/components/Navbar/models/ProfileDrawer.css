@@ -1,0 +1,150 @@
+/* Profile Drawer — isolated style */
+.profile-drawer-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  display: flex;
+  justify-content: flex-end;
+  z-index: 1100;
+}
+
+.profile-drawer-content {
+  background: #fff;
+  width: 320px;
+  height: 65%;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  box-shadow: -2px 0 12px rgba(0, 0, 0, 0.2);
+  border-top-left-radius: 14px;
+  border-bottom-left-radius: 14px;
+  overflow-y: auto;
+  animation: slideInProfile 0.3s ease forwards;
+}
+
+@keyframes slideInProfile {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.drawer-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.2rem;
+}
+
+.drawer-header h2 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  font-size: 1.3rem;
+  cursor: pointer;
+  color: #777;
+  transition: 0.2s ease;
+}
+.close-btn:hover {
+  color: #000;
+}
+
+/* Profile Card */
+.Profile-Drawer-current-user-card {
+  background: #fff;
+  border: 1px solid rgba(255, 193, 7, 0.4);
+  border-radius: 14px;
+  padding: 1.2rem;
+  text-align: center;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.Profile-Drawer-current-user-card:hover {
+  box-shadow: 0 4px 14px rgba(255, 193, 7, 0.25);
+}
+
+.user-profile {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #ffc107;
+  margin-bottom: 0.6rem;
+}
+
+.Profile-Drawer-Username {
+  display: block;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 0.4rem;
+  font-size: 1.05rem;
+}
+
+/* Added email & phone styling */
+.Profile-Drawer-Email,
+.Profile-Drawer-Phone {
+  display: block;
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 0.3rem;
+}
+
+.Profile-Drawer-switch {
+  display: inline-block;
+  font-size: 0.85rem;
+  color: #007bff;
+  cursor: pointer;
+  margin-top: 0.4rem;
+}
+
+.Profile-Drawer-switch:hover {
+  text-decoration: underline;
+}
+
+/* Buttons Section */
+.profile-actions {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.profile-actions button {
+  border: none;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 0.95rem;
+  padding: 0.8rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Account Settings */
+.settings-btn {
+  background-color: #f7f7f7;
+  color: #333;
+}
+.settings-btn:hover {
+  background-color: #ffc107;
+  color: #fff;
+}
+
+/* Logout */
+.logout-btn {
+  background-color: #333;
+  color: #fff;
+}
+.logout-btn:hover {
+  background-color: #ffc107;
+  color: #000;
+}
