@@ -24,9 +24,11 @@ A full-stack e-commerce platform for buying and selling electronic gadgets.
    `npm install`
 
 3. Setup Database (Automated ⚡)
+
+```bash
    -> 1. **Create and Activate Virtual Environment:**
 
-   ```bash
+
    python -m venv venv
    # Windows: .\venv\Scripts\activate
    # Mac/Linux: source venv/bin/activat
@@ -36,7 +38,7 @@ A full-stack e-commerce platform for buying and selling electronic gadgets.
    -> 3. Run the Initializer: python main.py
          Follow the terminal prompts to validate your database name and connect to your Cluster.
 
-   ```
+```
 
 4. Start the development server:
    `npm start`
