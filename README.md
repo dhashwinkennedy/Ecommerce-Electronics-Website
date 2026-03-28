@@ -57,11 +57,6 @@ A full-stack e-commerce platform for buying and selling electronic gadgets.
 | :-------------------------------------: | :---------------------------------------------: |
 | ![Cartpage](./screenshots/Cartpage.png) | ![Wishlistpage](./screenshots/Wishlistpage.png) |
 
-### 👤 User Account & Orders
-
-|                 Account Page                  |                 Orders Page                 |
-| :-------------------------------------------: | :-----------------------------------------: |
-| ![Accountpage](./screenshots/Accountpage.png) | ![Orderspage](./screenshots/Orderspage.png) |
 
 ### 🛠️ Features & Updates
 
