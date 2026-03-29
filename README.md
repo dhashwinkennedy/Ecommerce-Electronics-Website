@@ -42,6 +42,7 @@ A full-stack e-commerce platform for buying and selling electronic gadgets.
 
 4. Start the development server:
    `npm start`
+   
 
 ## 📸 Project Screenshots
 
@@ -63,6 +64,13 @@ A full-stack e-commerce platform for buying and selling electronic gadgets.
 |                Events Page                |                  Drawer & Pincode Update                   |
 | :---------------------------------------: | :--------------------------------------------------------: |
 | ![Eventpage](./screenshots/Eventpage.png) | ![Drawer Update](./screenshots/drawerandpincodeupdate.png) |
+
+
+
+> [!NOTE]
+> **Technical Status:** The current UI is optimized specifically for a **1920x1080 viewport** and is not yet fully responsive across all device breakpoints. Additionally, the integrated database contains a **limited sample set** of products for demonstration purposes.
+
+
 
 ## 📝 License
 
