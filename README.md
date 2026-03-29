@@ -68,7 +68,7 @@ A full-stack e-commerce platform for buying and selling electronic gadgets.
 
 
 > [!NOTE]
-> **Technical Status:** The current UI is optimized specifically for a **1920x1080 viewport** and is not yet fully responsive across all device breakpoints. Additionally, the integrated database contains a **limited sample set** of products for demonstration purposes.
+> **Technical Status:** The current UI is optimized specifically for a **1900x870 viewport** and is not yet fully responsive across all device breakpoints. Additionally, the integrated database contains a **limited sample set** of products for demonstration purposes.
 
 
 
